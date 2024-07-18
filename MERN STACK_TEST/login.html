@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>SNS COLLEGE OF TECHNOLOGY</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo1 {
+        height: 70px;
+        width: 70px;
+    }
+
+    .logo2 {
+        height: 80px;
+        width: 80px;
+    }
+
+    .head {
+        background-color: red;
+        color: black;
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .login-page {
+        background-color: red;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        border-radius: 25px;
+    }
+
+    .first-page {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .email {
+        padding: 5px;
+    }
+
+    .password {
+        padding:5px;
+        height: 10px;
+    }
+
+
+</style>
+
+
+<body style="background-color: grey;">
+
+    <header>
+        <div class="head">
+            <img class="logo2" src="logo2.png" alt="">
+            SNS COLLEGE OF TECHNOLOGY
+            <img class="logo1" src="logo1.png" alt="">
+        </div>
+    </header>
+
+    <div class="first-page">
+        <div class="login-page">
+            <h3 class="Ac">Have an account ?</h3>
+            <h3 class="LogIn">LogIn</h3>
+
+            <form action="home.html">
+                <input class="email" type="email" placeholder="E-mail or Phone Number" required>
+                <p class="password"><input type="password" placeholder="password" required></p><br>
+                <button type="submit" class="btn btn-outline-primary">Login</button>
+            </form>
+
+            <form action="signup.html">
+                <p style="font-size:larger; color: black;;">Don't have an account?</p>
+                <button type="submit" class="btn btn-outline-primary">Signup</button>
+            </form>
+                
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
